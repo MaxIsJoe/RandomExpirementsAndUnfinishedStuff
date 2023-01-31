@@ -1,0 +1,10 @@
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\bin\Debug\Hell Ground Arcade.dll
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\bin\Debug\Hell Ground Arcade.pdb
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\obj\Debug\Hell Ground Arcade.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\obj\Debug\Hell Ground Arcade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\obj\Debug\Hell Ground Arcade.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\obj\Debug\Hell Ground Arcade.AssemblyInfo.cs
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\obj\Debug\Hell Ground Arcade.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\obj\Debug\Hell Ground Arcade.dll
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\obj\Debug\Hell Ground Arcade.pdb
+C:\Users\PC\Documents\HellGroundArcade\.mono\temp\bin\Debug\Hell Ground Arcade.deps.json

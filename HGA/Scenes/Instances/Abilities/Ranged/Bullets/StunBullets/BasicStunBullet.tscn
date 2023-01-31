@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Instances/Abilities/Ranged/Bullets/_BulletBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Instances/Abilities/Ranged/Bullets/StunBullets/BasicStunBullet.cs" type="Script" id=2]
+
+[node name="BasicStunBullet" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+canDamage = false

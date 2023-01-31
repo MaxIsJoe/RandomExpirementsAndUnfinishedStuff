@@ -1,0 +1,32 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scenes/Instances/Entities/Enemies/BasicMeleeEnemies/Shambler.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Instances/Abilities/Melee/Basic/LightAttack.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Instances/Abilities/Passive/SmallSpeedBoost.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Instances/Abilities/Ranged/_BaseRangedAbility.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/Instances/Abilities/Ranged/StunGuns/BasicStunGun.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Scenes/Instances/Entities/Player/Player.tscn" type="PackedScene" id=8]
+
+[node name="TestArea" type="Node2D"]
+
+[node name="BasicStunGun" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1086, 160 )
+Type = 2
+
+[node name="_BaseRangedAbility" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1259, 167 )
+
+[node name="LightAttack" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1549, 387 )
+
+[node name="SmallSpeedBoost" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1554, 513 )
+
+[node name="Player" parent="." instance=ExtResource( 8 )]
+position = Vector2( 865, 472 )
+
+[node name="Shambler" parent="." instance=ExtResource( 1 )]
+position = Vector2( 428, 699 )
+
+[node name="Shambler2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 434, 237 )

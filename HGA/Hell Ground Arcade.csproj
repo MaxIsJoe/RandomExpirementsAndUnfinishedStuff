@@ -1,0 +1,11 @@
+<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>HellGroundArcade</RootNamespace>
+    <langversion>11.0</langversion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Scenes\Instances\Abilities\Melee" />
+    <Folder Include="Scenes\Instances\Abilities\Ranged" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Instances/Abilities/Ranged/Bullets/StunBullets/BasicStunBullet.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Instances/Abilities/Ranged/_BaseRangedAbility.tscn" type="PackedScene" id=2]
+
+[node name="BasicStunGun" instance=ExtResource( 2 )]
+AbilityName = "Basic Stun"
+bullet = ExtResource( 1 )

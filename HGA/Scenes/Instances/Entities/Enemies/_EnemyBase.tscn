@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Instances/Entities/EntityBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Instances/Entities/Enemies/BasicEnemyMovement.cs" type="Script" id=2]
+[ext_resource path="res://Scenes/Instances/Entities/Enemies/EnemyLookBehavior.cs" type="Script" id=3]
+
+[node name="_EnemyBase" instance=ExtResource( 1 )]
+_movementInterface = NodePath("StateMachine/EnemyMovement")
+
+[node name="Sprite" parent="." index="1"]
+modulate = Color( 1, 0, 0, 1 )
+
+[node name="LookBehavior" parent="ActionPointer" index="1"]
+script = ExtResource( 3 )
+_entityPath = NodePath("../..")
+
+[node name="EnemyMovement" type="Node" parent="StateMachine" index="0"]
+script = ExtResource( 2 )
+_entityPath = NodePath("../..")
